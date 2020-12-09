@@ -86,7 +86,7 @@ def loadtestimages(path_dataset, target_size, path_ground_truth_idxs, path_train
 	gt_test_idx = np.genfromtxt(path_ground_truth_idxs,delimiter=',')
 	train_idx = np.genfromtxt(path_train_idxs,delimiter=',')
 
-	classes = len(test_filenames)
+	classes = len(train_idx)
 	y_test = [(np.where(train_idx == gt)[0][0]) for gt in gt_test_idx]
 	y_test = to_categorical(y_test, num_classes=classes, dtype='int32')
 
