@@ -4,13 +4,11 @@ from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.applications import InceptionV3
 from tensorflow.keras.applications import Xception # TensorFlow ONLY
 from tensorflow.keras.applications import VGG16
-from keras import backend as K
-from keras.engine.topology import Layer
 import numpy as np
 import tensorflow as tf
 
 
-class L2Layer(Layer):
+class L2Layer(tf.keras.layers.Layer):
 	def __init__(self, **kwargs):
 		super(L2Layer, self).__init__(**kwargs)
 
