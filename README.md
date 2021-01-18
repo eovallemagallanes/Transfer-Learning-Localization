@@ -1,11 +1,12 @@
 # Transfer Learning for Humanoid Robot Appearance-based Localization in a Visual Map
 
-This is de code implementation accompanying IEEE Access paper of the same title (https://ieeexplore.ieee.org/abstract/document/9312592). 
+This is the code implementation accompanying IEEE Access paper of the same title (https://ieeexplore.ieee.org/abstract/document/9312592). 
 
 Update (Jan 18, 2021): Feel free to contact me by email: e.ovallemagallanes@ugto.mx for any further details/contributions.
 
 Citation:
 
+```
 @ARTICLE{9312592,
   author={E. {Ovalle-Magallanes} and N. G. {Aldana-Murillo} and J. G. {Avina-Cervantes} and J. {Ruiz-Pinales} and J. {Cepeda-Negrete} and S. {Ledesma}},
   journal={IEEE Access}, 
@@ -15,6 +16,7 @@ Citation:
   number={},
   pages={6868-6877},
   doi={10.1109/ACCESS.2020.3048936}}
+```
 
 
 # Abstract
@@ -28,4 +30,5 @@ You may download the repository and set your current working directory in the ma
 ## Contact
 
 e.ovallemagallanes@ugto.mx
+
 Google Scholar Profile: https://scholar.google.com/citations?user=zql1lk8AAAAJ&hl=es
